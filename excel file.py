@@ -35,6 +35,8 @@ w_sheet=wb.get_sheet(0)
 w_sheet.write(1,1,"Modified")
 w_sheet.write(3,1,"Modified")
 w_sheet.write(2,1,"Modified")
+w_sheet.write(2,0,"Test values")
 wb.save(file)
+
 
 

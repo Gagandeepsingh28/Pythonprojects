@@ -30,15 +30,15 @@ r=os.path.relpath("F:\python\"","test.txt")
 #import datetime
 date=os.stat(file).st_mtime
 #print(datetime.datetime.fromtimestamp(date)) #modified time and current time stamp
-#print(os.walk("E:\movies:")) #walk in the directory 
-#for dirpath,dirname,filepath in os.walk("E:\movies"):
-    #print(dirpath)
-    #print(dirname)
-   # print(filepath)
-#print(os.environ.get("Path"))
-#print(os.path.join(os.getcwd(),"test.txt"))
-print(os.path.exists("F:\python"))
-print(os.path.exists("E:\""))
+print(os.walk("E:\movies:")) #walk in the directory 
+for dirpath,dirname,filepath in os.walk("E:\movies"):
+    print(dirpath)
+    print(dirname)
+   #print(filepath)
+print(os.environ.get("Path"))
+print(os.path.join(os.getcwd(),"test.txt"))
+#print(os.path.exists("F:\python"))
+#print(os.path.exists("E:\""))
 
 
 

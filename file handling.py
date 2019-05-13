@@ -39,14 +39,14 @@ date=os.stat(file).st_mtime
 #print(os.path.join(os.getcwd(),"test.txt"))
 #print(os.path.exists("F:\python"))
 #print(os.path.exists("E:\""))
-#file=open(sys.argv[0],'r')
-#print(file.name)
-#print(file.readline())
-#print(file.mode)
-#print(file.readline())
-#for line in file:
-    #print(line,end="")
-#file.close()
+file=open(sys.argv[0],'r')
+print(file.name)
+print(file.readline())
+print(file.mode)
+print(file.readline())
+for line in file:
+    print(line,end="")
+file.close()
 f=open("F:\python\\test.13456.txt",'w')
 f.write("hello") #only string can be passed
 f.writelines("\n new line") #list of strings can be passed
@@ -58,4 +58,4 @@ f.close()
 fa=open("F:\python\\test.13456.txt",'a')
 fa.writelines("this is append file")
 fa.close()
-help("sys")
+#help("sys")

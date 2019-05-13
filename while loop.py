@@ -10,6 +10,8 @@ while n<=10:
     n+=1
     if n==6:
         continue
+    if n==8:
+        break
     print(n)
-    
-        
+e=type(n) is int
+print(e)

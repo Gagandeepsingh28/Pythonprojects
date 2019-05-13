@@ -21,4 +21,3 @@ class C:
     pass
 c=C()
 c.x=12
-
