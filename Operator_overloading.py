@@ -15,7 +15,6 @@ class Vector:
     def __str__(self):
         return ','.join(map(str,self.num))
 a=Vector([1,2,3,4])
-b=Vector([5,6])
+b=Vector([5,6,4,6])
 
 print(a.add(b))
-

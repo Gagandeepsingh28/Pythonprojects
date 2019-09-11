@@ -18,5 +18,3 @@ di={}
 l=[s,p]
 d1=dict(l)
 print(d1)
-
-

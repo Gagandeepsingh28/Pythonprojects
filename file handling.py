@@ -8,12 +8,12 @@ import os
 print(os.getcwd())
 import sys
 file=sys.argv[0]
-#print(file)
-#print(os.listdir)
-#print(os.getcwd())
+print(file)
+print(os.listdir)
+print(os.getcwd())
 p=(os.path.abspath("test.txt"))
 #print(os.path.isabs("F:\python\test.txt"))
-r=os.path.relpath("F:\python\"","test.txt")
+r=os.path.relpath("E:\python\"","test.txt")
 #print(os.path.dirname("file"))
 #print(os.path.basename("file"))
 #print(os.path.exists("exception handling.py"))
@@ -39,15 +39,15 @@ date=os.stat(file).st_mtime
 #print(os.path.join(os.getcwd(),"test.txt"))
 #print(os.path.exists("F:\python"))
 #print(os.path.exists("E:\""))
-file=open(sys.argv[0],'r')
-print(file.name)
-print(file.readline())
-print(file.mode)
-print(file.readline())
-for line in file:
-    print(line,end="")
-file.close()
-f=open("F:\python\\test.13456.txt",'w')
+#file=open(sys.argv[0],'r')
+#print(file.name)
+#print(file.readline())
+#print(file.mode)
+#print(file.readline())
+#for line in file:
+#    print(line,end="")
+#file.close()
+f=open("E:\python\\test.13456.txt",'w')
 f.write("hello") #only string can be passed
 f.writelines("\n new line") #list of strings can be passed
 l=[1,2,3,4,5]
@@ -55,7 +55,8 @@ f.writelines(str(l))
 ls="hello world"
 f.writelines(ls)
 f.close()
-fa=open("F:\python\\test.13456.txt",'a')
+fa=open("E:\python\\test.13456.txt",'a')
 fa.writelines("this is append file")
 fa.close()
 #help("sys")
+

@@ -13,8 +13,8 @@ class Cons:
     def dispage(self):
         print("my age is"+str(self.age))
 c=Cons("gagan",20)
-#print(c.name)
-#print(c.age)
+print(c.name)
+print(c.age)
 c.dispage()
 c.dispname()
 class Grand():
@@ -23,6 +23,6 @@ class Grand():
 class Child(Cons,Grand):
     pass
 ch=Child("gagan",21)
-ch.dispage()
 ch.dispname()
+ch.dispage()
 ch.address()

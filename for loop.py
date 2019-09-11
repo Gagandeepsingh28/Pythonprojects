@@ -6,12 +6,12 @@ Created on Tue Apr  2 23:02:54 2019
 """
 for i in range(10):
     print(i)
-#for j in range(2,10):
-    #print(j)
-#for k in range(2,10,2):
-    #print(k)
-#for l in range(30,10,-2):
-    #print(l)
+for j in range(2,10):
+    print(j)
+for k in range(2,10,2):
+    print(k)
+for l in range(30,10,-2):
+    print(l)
 
 l1=["tea","juice","hayuiget"]
 for n in l1:

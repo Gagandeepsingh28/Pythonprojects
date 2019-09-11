@@ -12,9 +12,9 @@ class Overload:
 
 a=Overload(4)
 b=Overload(6)
-#print(a+b)
+print(a+b)
 
 l=[1,2,3,4]
-l1=[6,7,8,9]
+l1=[6,7,8,9] 
 r=zip(l,l1)
 print(list(r))

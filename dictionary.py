@@ -26,10 +26,5 @@ print(di.fromkeys(di))
 print(di.items())
 print(di.pop("name"))
 print(di.pop("class","this key is not available"))
-di.update({"pidleath":"not"})
-tprint(di)
-
-
-
-
-
+#di.update({"pidleath":"not"})
+#print(di)

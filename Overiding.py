@@ -35,7 +35,3 @@ class Loading(Over,Load):
 y=Loading(5,6)
 y.sum1()
 
-
-
-
-
